@@ -60,6 +60,18 @@ header {
     /* box-shadow: none; */
 }
 
+#forms-section {
+    background-color: #eae8e4;
+}
+
+#validation-cell {
+    background-color: #dfdcd5;
+}
+
+.num {
+    color: #7D26C9;
+}
+
 .icon {
     color: #eae8e4;
     font-size: 2em;
