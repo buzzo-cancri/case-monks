@@ -202,7 +202,7 @@
                     <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius soluta molestiae eveniet</p>
                     <small class="text-dark">*Lorem ipsum dolor sit amet consectetur</small>
 
-                    <form action="" onsubmit="">
+                    <form action="" name="monksForm" onsubmit="onSubmit">
                         <div class="row g-3 my-3">
                             <div class="col-12 col-md-6">
                                 <input type="text" class="form-control mb-3" placeholder="Categoria*" required>
@@ -224,13 +224,13 @@
                                         <p class="num px-1 ps-md-3 m-0">000</p>
                                     </div>
                                     <p class="text-dark fw-bold px-3 px-md-5 m-0">=</p>
-                                    <input type="email" class="form-control" id="validate-number" placeholder="Resultado*" required>
+                                    <input type="number" class="form-control" id="answer" placeholder="Resultado*" required>
                                 </div>
                             </div>
                         </div>
 
                         <div class="text-center">
-                            <button type="submit" class="custom-button btn px-5">Lorem ipsum</button>
+                            <button type="button" class="custom-button btn px-5" onclick="validate()">Lorem ipsum</button>
                         </div>
 
                     </form>
@@ -268,5 +268,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js" onload="loadNumbers()"></script>
 </body>
 </html>
