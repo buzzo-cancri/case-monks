@@ -14,6 +14,30 @@ header {
     background-color: #2d2d2d;
 }
 
+#navbar-categories {
+    background-color: #dfbbfe;
+}
+
+.nav-link {
+    color: #2d2d2d;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.nav-link:active:focus {
+    color: #2d2d2d;
+    font-weight: bold;
+    list-style-type: disc;
+    display: list-item;
+    margin-left: 1em;
+}
+
+#back-img {
+    background-color: #dfbbfe;
+    display: flex;
+}
+
 /* Content */
 .content-section {
     background-color: #fcfcfd;
@@ -113,6 +137,26 @@ input[type=number] {
 @media (min-width: 768px) {
     header {
         --header-max-h: 380px;
+    }
+
+    #offcanvas-menu {
+        display: none;
+    }
+
+    #navbar-categories {
+        background-color: transparent;
+    }
+
+    .nav-link,
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active,
+    .nav-link:active:focus{
+        color: #eae8e4;
+    }
+
+    #back-img {
+        display: none;
     }
 
     #banner-img {

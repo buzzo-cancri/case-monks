@@ -16,7 +16,7 @@
     <header class="dark-section container-fluid mx-0 px-0">
 
         <!-- Navbar -->
-        <nav id="nav-bar" class="navbar navbar-expand-md navbar-dark m-0 p-0 bg-dark rounded-bottom" data-bs-theme="dark">
+        <nav id="nav-bar" class="navbar navbar-expand-md navbar-dark m-0 p-0 dark-section rounded-bottom" data-bs-theme="dark">
             <div class="row-fluid container-fluid m-0 p-0 ms-md-5 align-items-center">
                 <div class="col-8">
                     <div class="row container-fluid justify-content-start">
@@ -27,13 +27,21 @@
                         </div>
 
                         <div class="col-md-9 col-4">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#main-nav"
                                 aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
 
-                            <div class="collapse navbar-collapse justify-content-start align-center" id="main-nav">
-                                <ul class="navbar-nav">
+                            <div class="offcanvas offcanvas-end justify-content-start align-center dark-section" id="main-nav">
+                                <div class="offcanvas-header justify-content-start align-center rounded-bottom" id="offcanvas-menu">
+                                    <img src="imgs/monks-logo.svg" alt="" class="img-fluid me-3">
+                                    <button type="button" class="navbar-toggler dark-section" data-bs-dismiss="offcanvas" aria-label="Close">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+
+                                
+                                <ul class="navbar-nav ps-4 ps-md-0" id="navbar-categories">
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Categoria 1</a>
                                     </li>
@@ -47,6 +55,10 @@
                                         <a class="nav-link" href="#">Categoria 4</a>
                                     </li>
                                 </ul>
+
+                                <div class="py-3 justify-content-center align-items-center" id="back-img">
+                                    <img src="imgs/back.svg" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
