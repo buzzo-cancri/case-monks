@@ -1,3 +1,15 @@
+/* 
+    Dado que estou utilizando Bootstrap 5.2 via CDN, as classes utilitárias
+    não podem ser diretamente customizadas. Portanto escolho modificar algumas classes
+    e adicionar IDs para estilização personalizada e que se assemelhe ao Mockup fornecido.
+    
+    Apesar da limitação do uso do Bootstrap via CDN, utilizá-lo dessa maneira
+    é mais prático, pensando no escopo do desafio, do que baixar os arquivos ou incorporá-los 
+    com Node.js.
+*/
+
+
+
 /* Global */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
