@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Importing Bootstrap-->
+    <!-- Importing Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Monks Case</title>
 </head>
+
 <body>
-    <!--Header-->
+    <!-- Header -->
     <header class="dark-section container-fluid mx-0 px-0">
-    <!--Navbar-->
-    <nav id="nav-bar" class="navbar navbar-expand-md navbar-dark m-0 p-0 bg-dark rounded-bottom" data-bs-theme="dark">
-        <div class="row-fluid container-fluid m-0 p-0 ms-md-5 align-items-center">
-            <div class="col-8">
-                <div class="row container-fluid justify-content-start">
-                    <div class="col-md-3 col-8">
-                        <!-- navbar brand / title -->
-                        <a class="navbar-brand" href="#">
-                            <img src="imgs/monks-logo.svg" alt="" class="img-fluid">
-                        </a>
-                    </div>
 
-                    <div class="col-md-9 col-4">
-                        <!-- toggle button for mobile nav -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+        <!-- Navbar -->
+        <nav id="nav-bar" class="navbar navbar-expand-md navbar-dark m-0 p-0 bg-dark rounded-bottom" data-bs-theme="dark">
+            <div class="row-fluid container-fluid m-0 p-0 ms-md-5 align-items-center">
+                <div class="col-8">
+                    <div class="row container-fluid justify-content-start">
+                        <div class="col-md-3 col-8">
+                            <a class="navbar-brand" href="#">
+                                <img src="imgs/monks-logo.svg" alt="" class="img-fluid">
+                            </a>
+                        </div>
 
-                        <!-- navbar links -->
-                        <div class="collapse navbar-collapse justify-content-start align-center" id="main-nav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Categoria 1</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Categoria 2</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Categoria 3</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Categoria 4</a>
-                                </li>
-                            </ul>
+                        <div class="col-md-9 col-4">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-start align-center" id="main-nav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Categoria 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Categoria 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Categoria 3</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Categoria 4</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="container-fluid d-flex flex-column align-items-start text-center mt-5 mb-2">
+                        <h1 class="text-white fw-bold text-start">Lorem ipsum dolor sit amet consectetur.</h1>
+                        <p class="text-white text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos
+                            tempore esse corporis asperiores, aspernatur autem?</p>
+                        <img src="imgs/scroll.svg" alt="Seta indicando para rolar para baixo" class="img-fluid align-self-center">
+                    </div>
                 </div>
-                <div class="container-fluid d-flex flex-column align-items-start text-center mt-5 mb-2">
-                    <h1 class="text-white fw-bold text-start">Lorem ipsum dolor sit amet consectetur.</h1>
-                    <p class="text-white text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos tempore esse corporis asperiores, aspernatur autem?</p>
-                    <img src="imgs/scroll.svg" alt="Seta indicando para rolar para baixo" class="img-fluid align-self-center">
+
+                <div class="col-4 overflow-hidden">
+                    <img id="banner-img" src="imgs/monks-banner.svg" alt="Banner da Monks" height="480px"
+                        class="w-auto d-block">
                 </div>
             </div>
-            <div class="col-4 overflow-hidden">
-                <img id="banner-img" src="imgs/monks-banner.svg" alt="Banner da Monks" height="480px" class="w-auto d-block">
-            </div>
-        </div>
-    </nav>
+        </nav>
     </header>
 
-    <!--Section 1-->
+    <!-- Section 1 -->
     <section class="py-3 px-md-5 px-3">
         <div class="container-fluid my-3 p-0">
             <h2 class="text-dark">Lorem ipsum dolor sit amet consectetur.</h2>
-            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis voluptate voluptatem sint pariatur.</p>
+            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis voluptate voluptatem
+                sint pariatur.</p>
         </div>
 
         <div class="row my-3 gx-md-3 gy-3 justify-content-evenly">
@@ -77,6 +83,7 @@
                     <p class="card-subtitle text-dark">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </div>
+
             <div class="col-12 col-md-3 justify-content-start">
                 <div class="content-section card bg-white p-3 border-0 shadow-sm rounded-3">
                     <img src="imgs/section-1/img-2.png" alt="" class="img-fluid rounded-3">
@@ -84,6 +91,7 @@
                     <p class="card-subtitle text-dark">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </div>
+
             <div class="col-12 col-md-3 justify-content-start">
                 <div class="content-section card bg-white p-3 border-0 shadow-sm rounded-3">
                     <img src="imgs/section-1/img-3.png" alt="" class="img-fluid rounded-3">
@@ -91,6 +99,7 @@
                     <p class="card-subtitle text-dark">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </div>
+
             <div class="col-12 col-md-3 justify-content-start">
                 <div class="content-section card bg-white p-3 border-0 shadow-sm rounded-3">
                     <img src="imgs/section-1/img-4.png" alt="" class="img-fluid rounded-3">
@@ -101,13 +110,14 @@
         </div>
     </section>
 
-    <!--Section 2-->
+    <!-- Section 2 -->
     <section id="section-2" class="py-3 px-md-5 px-3">
         <div class="row g-3">
             <div class="section2-col col-12 col-md-6">
                 <div class="container-fluid my-3 p-0">
                     <h2 class="text-dark">Lorem ipsum dolor sit amet consectetur.</h2>
-                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis voluptate voluptatem sint pariatur.</p>
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis voluptate
+                        voluptatem sint pariatur.</p>
                 </div>
 
                 <img src="imgs/section-2/img-1.png" alt="" class="img-fluid d-block w-100 h-100 object-fit-cover shadow-sm rounded-4">
@@ -120,18 +130,21 @@
         </div>
     </section>
 
-    <!--Section 3-->
+    <!-- Section 3 -->
     <section class="py-3 px-md-5 px-3">
         <div class="container-fluid rounded-4 px-3 py-3" id="app-container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-9">
                     <h2 class="text-white">Lorem ipsum dolor sit amet consectetur.</h2>
-                    <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ipsa animi eligendi rerum nam distinctio sapiente!</p>
+                    <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ipsa animi
+                        eligendi rerum nam distinctio sapiente!</p>
                 </div>
+
                 <div class="col-12 col-md-3">
                     <a href="" class="btn m-0 p-0">
                         <img src="imgs/section-3/img-1.png" alt="" class="img-fluid mt-5 mt-md-0 mb-2 object-fit-cover rounded-4">
                     </a>
+
                     <a href="" class="btn m-0 p-0">
                         <img src="imgs/section-3/img-2.png" alt="" class="img-fluid object-fit-cover rounded-4">
                     </a>
@@ -140,7 +153,7 @@
         </div>
     </section>
 
-    <!--Section 4-->
+    <!-- Section 4 -->
     <section class="py-3 px-md-5 px-3">
         <h2 class="text-dark my-4">Lorem ipsum dolor sit amet consectetur.</h2>
         <div class="d-flex flex-wrap flex-row gap-4 align-items-start justify-content-center m-0 p-0">
@@ -162,34 +175,39 @@
         </div>
     </section>
 
-    <!--Section 5-->
+    <!-- Section 5 -->
     <section class="py-3 px-md-5 px-3">
         <div class="row g-4">
             <div class="col-12 col-md-4">
                 <div class="content-section card px-3 py-4 align-items-start justify-content-center shadow-sm rounded-3">
                     <h3 class="text-dark">Lorem ipsum dolor sit amet.</h3>
-                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolore tempora eveniet, expedita corporis officiis dolorem.</p>
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolore tempora
+                        eveniet, expedita corporis officiis dolorem.</p>
                     <a href="" class="custom-button btn px-5 py-2 align-self-center rounded-2">Lorem ipsum</a>
                 </div>
             </div>
+
             <div class="col-12 col-md-4">
                 <div class="content-section card px-3 py-4 align-items-start justify-content-center shadow-sm rounded-3">
                     <h3 class="text-dark">Lorem ipsum dolor sit amet.</h3>
-                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolore tempora eveniet, expedita corporis officiis dolorem.</p>
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolore tempora
+                        eveniet, expedita corporis officiis dolorem.</p>
                     <a href="" class="custom-button btn px-5 py-2 align-self-center rounded-2">Lorem ipsum</a>
                 </div>
             </div>
+
             <div class="col-12 col-md-4">
                 <div class="content-section card px-3 py-4 align-items-start justify-content-center shadow-sm rounded-3">
                     <h3 class="text-dark">Lorem ipsum dolor sit amet.</h3>
-                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolore tempora eveniet, expedita corporis officiis dolorem.</p>
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolore tempora
+                        eveniet, expedita corporis officiis dolorem.</p>
                     <a href="" class="custom-button btn px-5 py-2 align-self-center rounded-2">Lorem ipsum</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Section 6-->
+    <!-- Section 6 -->
     <section class="dark-section py-3 px-md-5 px-3">
         <div class="row g-3">
             <div class="col-12 col-md-3 d-flex justify-content-center">
@@ -199,7 +217,8 @@
             <div class="col-12 col-md-9">
                 <div class="p-3 rounded-4" id="forms-section">
                     <h2 class="text-dark">Lorem ipsum dolor sit amet consectetur</h2>
-                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius soluta molestiae eveniet</p>
+                    <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius soluta molestiae
+                        eveniet</p>
                     <small class="text-dark">*Lorem ipsum dolor sit amet consectetur</small>
 
                     <form action="" name="monksForm" onsubmit="onSubmit">
@@ -208,6 +227,7 @@
                                 <input type="text" class="form-control mb-3" placeholder="Categoria*" required>
                                 <input type="text" class="form-control" placeholder="Categoria">
                             </div>
+
                             <div class="col-12 col-md-6">
                                 <input type="text" class="form-control mb-3" placeholder="Categoria*" required>
                                 <input type="text" class="form-control" placeholder="Categoria">
@@ -215,14 +235,17 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="validate-number" class="col-12 col-md-5 col-form-label fw-bold">Verificação de Segurança</label>
+                            <label for="validate-number" class="col-12 col-md-5 col-form-label fw-bold">Verificação de
+                                Segurança</label>
                             <div class="col-12 col-md-7">
                                 <div class="d-flex flex-nowrap gap-1 align-items-center justify-content-center">
-                                    <div class="d-flex flex-nowrap p-2 px-md-5 align-items-center justify-content-center text-dark fw-bold rounded-3" id="validation-cell">
-                                        <p class="num pe-1 pe-md-3 m-0">000</p> 
-                                        <p class="p-0 m-0">+</p> 
+                                    <div class="d-flex flex-nowrap p-2 px-md-5 align-items-center justify-content-center text-dark fw-bold rounded-3"
+                                        id="validation-cell">
+                                        <p class="num pe-1 pe-md-3 m-0">000</p>
+                                        <p class="p-0 m-0">+</p>
                                         <p class="num px-1 ps-md-3 m-0">000</p>
                                     </div>
+
                                     <p class="text-dark fw-bold px-3 px-md-5 m-0">=</p>
                                     <input type="number" class="form-control" id="answer" placeholder="Resultado*" required>
                                 </div>
@@ -239,24 +262,28 @@
         </div>
     </section>
 
-    <!--Footer-->
+    <!-- Footer -->
     <footer class="dark-section pt-3 px-md-5 px-3">
-        <hr class="border-2 border-top" id="footer-hline"/>
+        <hr class="border-2 border-top" id="footer-hline" />
         <div class="d-flex flex-column align-items-center justify-content-center">
             <div class="d-flex my-5 gap-4">
                 <a href="" class="btn m-0 p-0">
                     <i class="icon bi bi-instagram"></i>
                 </a>
+
                 <a href="" class="btn m-0 p-0">
                     <i class="icon bi bi-whatsapp"></i>
                 </a>
+
                 <a href="" class="btn m-0 p-0">
                     <i class="icon bi bi-twitter"></i>
                 </a>
+
                 <a href="" class="btn m-0 p-0">
                     <i class="icon bi bi-facebook"></i>
                 </a>
             </div>
+
             <h4 class="text-white mb-3">Lorem ipsum dolor sit amet</h4>
             <div class="d-flex flex-wrap justify-content-center gap-3 mb-3">
                 <p class="text-white">Lorem ipsum</p>
@@ -270,4 +297,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js" onload="loadNumbers()"></script>
 </body>
+
 </html>

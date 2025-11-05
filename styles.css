@@ -1,8 +1,10 @@
+/* Global */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #eae8e4;
 }
 
+/* Header */
 header {
     --header-max-h: 480px;
     max-height: var(--header-max-h);
@@ -12,6 +14,7 @@ header {
     background-color: #2d2d2d;
 }
 
+/* Content */
 .content-section {
     background-color: #fcfcfd;
 }
@@ -24,6 +27,7 @@ header {
     margin-left: -35px;
 }
 
+/* Section 2: equal height columns */
 #section-2 {
     --section2-row-h: 700px;
 }
@@ -38,10 +42,12 @@ header {
     flex: 1 1 0;
 }
 
+/* App Store container */
 #app-container {
     background-color: #3c0c60;
 }
 
+/* Pills */
 .pill-container {
     background-color: #dfdcd5;
     border: 1px solid;
@@ -49,17 +55,21 @@ header {
     color: #7d26c9;
 }
 
+/* Buttons */
 .custom-button {
     background-color: #dfbbfe;
     color: #2d2d2d;
     border: none;
 }
 
-.custom-button:hover, .custom-button:focus, .custom-button:active, .custom-button:active:focus {
+.custom-button:hover,
+.custom-button:focus,
+.custom-button:active,
+.custom-button:active:focus {
     background-color: #c998e6;
-    /* box-shadow: none; */
 }
 
+/* Forms */
 #forms-section {
     background-color: #eae8e4;
 }
@@ -70,6 +80,19 @@ header {
 
 .num {
     color: #7D26C9;
+}
+
+/* Remove spinner from input boxes */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 .icon {
@@ -86,6 +109,7 @@ header {
     border: none;
 }
 
+/* Media queries */
 @media (min-width: 768px) {
     header {
         --header-max-h: 380px;
