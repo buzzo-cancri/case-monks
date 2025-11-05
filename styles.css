@@ -2,20 +2,33 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Header maximum height (use CSS variable so it's easy to tweak per breakpoint)
+   The header keeps a max-height but the nav won't be cropped because the image
+   inside the nav is restrained to this value. */
 header {
-    height: auto;
-    max-height: 380px;
+    /* default (mobile) max height */
+    --header-max-h: 480px;
+    max-height: var(--header-max-h);
 }
 
+/* Banner image: never taller than the header's max height. This constrains the
+   image while allowing the nav to layout normally (no cropping). */
 #banner-img {
-    max-height: 480px;
-    margin-left: -35px;
+    max-height: calc(var(--header-max-h));
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    margin-left: -35px; /* keep previous visual tweak for small screens */
 }
 
-/* When window is resized */ 
+/* Larger screens: adjust header max height and remove the left offset */
 @media (min-width: 768px) {
+    header {
+        --header-max-h: 380px;
+    }
+
     #banner-img {
-        max-height: 300px;
         margin-left: 0;
+        /* max-height uses the header variable automatically */
     }
 }
