@@ -49,6 +49,21 @@ header {
     color: #7d26c9;
 }
 
+.custom-button {
+    background-color: #dfbbfe;
+    color: #2d2d2d;
+    border: none;
+}
+
+.icon {
+    color: #eae8e4;
+    font-size: 2em;
+}
+
+#footer-hline {
+    background-color: #dfbbfe;
+    border-color: #dfbbfe;
+}
 
 @media (min-width: 768px) {
     header {
