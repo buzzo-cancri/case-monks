@@ -70,6 +70,10 @@ header {
     border-color: #dfbbfe;
 }
 
+.btn {
+    border: none;
+}
+
 @media (min-width: 768px) {
     header {
         --header-max-h: 380px;
