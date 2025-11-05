@@ -55,6 +55,11 @@ header {
     border: none;
 }
 
+.custom-button:hover, .custom-button:focus, .custom-button:active, .custom-button:active:focus {
+    background-color: #c998e6;
+    /* box-shadow: none; */
+}
+
 .icon {
     color: #eae8e4;
     font-size: 2em;
